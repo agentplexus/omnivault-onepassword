@@ -1,0 +1,43 @@
+version: "2"
+
+run:
+  timeout: 5m
+  go: "1.22"
+
+linters:
+  enable:
+    - dogsled
+    - dupl
+    - gosec
+    - misspell
+    - nakedret
+    - staticcheck
+    - unconvert
+    - unparam
+    - whitespace
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
+
+linters-settings:
+  dupl:
+    threshold: 150
+  goimports:
+    local-prefixes: github.com/agentplexus
+  nakedret:
+    max-func-lines: 30
+
+issues:
+  exclude-dirs:
+    - vendor
+    - third_party
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - dupl
+        - gosec
+    - path: examples/
+      linters:
+        - gosec
