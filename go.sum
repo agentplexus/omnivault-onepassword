@@ -1,7 +1,7 @@
 github.com/1password/onepassword-sdk-go v0.1.3 h1:PP8+pydBt40Uh21tXP9bmPCPTlBc23JW5iVpOjzssw4=
 github.com/1password/onepassword-sdk-go v0.1.3/go.mod h1:nZEOzWFvodClltx8G0xtcNGqzNrrcfW589Rb9T82hE8=
-github.com/agentplexus/omnivault v0.2.0 h1:2Irg07HT4vg2TekocJoUfjyekUdtKcQm/alNEnUngRk=
-github.com/agentplexus/omnivault v0.2.0/go.mod h1:r+sr3yTymLn/sU/BjcXtrKouEuKpHOl21G0q254h04o=
+github.com/agentplexus/omnivault v0.2.1 h1:7Inras4SbRrQIEguDvvr0SKc11pvBOmWKKuGUdcdXeg=
+github.com/agentplexus/omnivault v0.2.1/go.mod h1:zS5AsNGKNuRRMyA4vSJZXmV1F4lOhAGeZD50kKOpLlk=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/extism/go-sdk v1.3.1 h1:eVpuv36b67Km/tAb7Cq6msHEW8kkdFgpZO/7fCwjuoE=
