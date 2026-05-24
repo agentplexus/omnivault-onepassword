@@ -7,6 +7,22 @@
   "maintainers": ["plexusone", "johncwang@gmail.com"],
   "releases": [
     {
+      "version": "v0.4.0",
+      "date": "2026-05-24",
+      "commit": "a3cb425",
+      "highlights": [
+        { "description": "Auto-registration support for `op://` URI scheme via register package" }
+      ],
+      "added": [
+        { "description": "`omnivault/register` package for automatic provider registration on import", "commit": "ec154df" },
+        { "description": "Support for `omnivault.VaultFromURI(\"op://MyVault\")` without manual setup", "commit": "ec154df" }
+      ],
+      "dependencies": [
+        { "description": "Update `github.com/plexusone/omnivault` from v0.3.0 to v0.5.0", "commit": "a3cb425" },
+        { "description": "Update `golang.org/x/sys` from v0.43.0 to v0.45.0", "commit": "a3cb425" }
+      ]
+    },
+    {
       "version": "v0.3.0",
       "date": "2026-05-03",
       "highlights": [
