@@ -3,7 +3,7 @@ module github.com/plexusone/omni-onepassword
 go 1.25.5
 
 require (
-	github.com/1password/onepassword-sdk-go v0.4.0
+	github.com/1password/onepassword-sdk-go v0.4.1
 	github.com/plexusone/omnivault v0.5.0
 )
 
